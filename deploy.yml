@@ -1,0 +1,45 @@
+---
+version: "2.0"
+
+services:
+  app:
+    image: dimokus88/massa:9.0.1
+    expose:
+      - port: 80
+        as: 80
+        to:
+          - global: true
+      - port: 22
+        as: 22
+        to:
+          - global: true
+      - port: 31245
+        as: 31245
+        to:
+          - global: true
+      - port: 31244
+        as: 31244
+        to:
+          - global: true
+    
+profiles:
+  compute:
+    app:
+      resources:
+        cpu:
+          units: 2.0
+        memory:
+          size: 4Gi
+        storage:
+          size: 10Gi
+  placement:
+    akash:
+      pricing:
+        app:
+          denom: uakt
+          amount: 100
+deployment:
+  app:
+    akash:
+      profile: app
+      count: 1 #max 2 count
