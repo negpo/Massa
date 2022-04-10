@@ -7,7 +7,7 @@
 после входа делаем команды:
 ```
 cd /massa/massa-node
-nohup cargo run — — release &
+nohup cargo run --release &
 ```
 Команда nohup отвяжет лог от окна терминала и пустит его в файл nohup.out. 
 После выполнения команды нажмите сочетание клавиш ctrl+c, для возврата в bash. 
@@ -18,7 +18,7 @@ nohup cargo run — — release &
 Потом идем в папку кошелька и запускаем кошелек
 ```
 cd /massa/massa-client
-cargo run — — release
+cargo run --release
 ```
 как только кошелек будет запущен делаем
 ```
