@@ -3,7 +3,11 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/massa:9.0.1
+    image: dimokus88/massa:9.0.2
+    env:
+    # - my_discord_id="your_discord_id "
+    # - my_wallet_privkey="your_wallet_privat_key"
+    # - my_wallet_addr="your_wallet_address"
     expose:
       - port: 80
         as: 80
@@ -13,15 +17,7 @@ services:
         as: 22
         to:
           - global: true
-      - port: 31245
-        as: 31245
-        to:
-          - global: true
-      - port: 31244
-        as: 31244
-        to:
-          - global: true
-    
+          
 profiles:
   compute:
     app:
