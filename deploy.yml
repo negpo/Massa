@@ -3,11 +3,11 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/massa:9.2
+    image: dimokus88/massa:9.2.1
     env:
-    # - my_discord_id="your_discord_id "
-    # - my_wallet_privkey="your_wallet_privat_key"
-    # - my_wallet_addr="your_wallet_address"
+    # - my_discord_id=your_discord_id
+    # - my_wallet_privkey=your_wallet_privat_key
+    # - my_wallet_addr=your_wallet_address
     expose:
       - port: 80
         as: 80
