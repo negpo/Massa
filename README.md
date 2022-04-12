@@ -1,9 +1,14 @@
 # Massa
 Нода проекта Massa для развертки на Akash Network
 # Если вы планируете использовать образ massa:9.1.2
-1. Идем по адресу https://test.massa.net/#wallet и генерируем кошелек (сохраняем приватный ключ и адрес кошелька)
-2. Идем в дискорд Massa https://discord.gg/W5X3frEE и запрашиваем в кране токены на полученны адрес.
-3. Заполняем deploy.yml со своими данными кошелька и Dicsord ID (получить у MassaBot) 
+1. Идем по адресу https://test.massa.net/#wallet и генерируем кошелек нажимая Generate private key (сохраняем приватный ключ из поля Add private key). Нажимаем кнопку Add.
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163007524-299d05f6-cbdb-4305-86ba-9d6a23f189ca.png)
+2. Из поля Address копируем свой публичный адрес кошелька. Можете сохранить файл кошелька wallet.dat нажатием Save wallet.
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163008630-cd244a72-ddf4-48be-8fcd-8270b2032092.png)
+3. Идем в дискорд Massa https://discord.gg/W5X3frEE , канал #testnet-faucet  и запрашиваем в кране токены на полученны адрес.
+4. Заполняем deploy.yml со своими данными кошелька и Discord ID (получить у MassaBot) 
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163009566-323f2526-c745-4648-9670-749e14d5387b.png)
+
 
 
 
