@@ -1,4 +1,15 @@
-# Massa
+# Massa Node on Akash Network
+
+* [English guide](https://github.com/Dimokus88/Massa/edit/main/README.md#massa-node-for-deployment-on-akash-network)
+* [Инструкция на русском](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
+
+___
+Before you start - subscribe to our news:
+
+[Discord Akash](https://discord.gg/3SNdg3BS), [Telegram Akash EN](https://t.me/AkashNW), [Telegram Akash RU](https://t.me/akash_ru), [TwitterAkash](https://twitter.com/akashnet_), [TwitterAkashRU](https://twitter.com/akash_ru).
+
+Thanks for help with assembly [Andy](https://twitter.com/andy31259) !
+___
 ___
 Прежде чем начать - подпишитесь на наши новостные каналы:
 
@@ -6,12 +17,51 @@ ___
 
 Отдельная благодарность за помощь в сборке [Andy](https://twitter.com/andy31259) !
 ___
-Нода проекта Massa для развертки на Akash Network
+
+### Massa node for deployment on Akash Network
+
+* If you already have a wallet - go to paragraph ["Request tokens in a faucet"](https://github.com/Dimokus88/Massa/edit/main/README.md#request-tokens-in-a-faucet).
+
+# Using the dimokus88/massa:9.2.2 image with auto deployment:
+
+## Create wallet
+* Go to https://test.massa.net/#wallet and generate a wallet by clicking "Generate private key" (save the private key from the "Add private key"). Click "Add".
+ 
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163007524-299d05f6-cbdb-4305-86ba-9d6a23f189ca.png)
+
+* From "Address" copy public key wallet. You can save yor wallet file wallet.dat, click "Save wallet".
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163008630-cd244a72-ddf4-48be-8fcd-8270b2032092.png)
+
+## Request tokens in a faucet
+
+Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet```  and request in faucet tokens to your public adrress. Wait for the receipt of tokens on the account and proceed to the next item (check balancein [blockchain explorer Massa](https://test.massa.net/#explorer) by entering your public address).
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163015694-1f320c6e-1be5-47af-88ab-203f8d97c228.png)
+
+## Deploy Massa node on Akash Network
+* Enter info to [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) from the your wallet and Discord ID (get in MassaBot), and don't forget to uncomment the lines (remove the # symbol at the beginning of the lines).
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163009566-323f2526-c745-4648-9670-749e14d5387b.png)
+
+* Create deployment and waiting of the bids, select provider and waiting start deployment your container.
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
+
+*Go to Logs. Deploing of node takes about of ***5 minutes***. Then,go to window logs, get information about the work massa-client. The hash of the transaction that needs to be submitted to MassaBot (Discord) to register for the rewards program will be displayed in ***last line***.
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
+
+* And you can download logs in file, click "Download logs".
+
+___
+
+### Нода проекта Massa для развертки на Akash Network
 
 * Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
 * Если хотите настроить в ручном режиме, то вам [сюда](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%B5%D1%81%D0%BB%D0%B8-%D0%B2%D1%8B-%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D1%83%D0%B5%D1%82%D0%B5-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7-massa902-%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%BE-%D0%B2%D1%80%D1%83%D1%87%D0%BD%D1%83%D1%8E-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%B8-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B8-%D0%BD%D0%B8%D0%B6%D0%B5).
 
-# Если вы планируете использовать образ massa:9.2.2 с автоматической разверткой:
+# Если вы планируете использовать образ dimokus88/massa:9.2.2 с автоматической разверткой:
 
 ## Создание кошелька
 * Идем по адресу https://test.massa.net/#wallet и генерируем кошелек нажимая Generate private key (сохраняем приватный ключ из поля Add private key). Нажимаем кнопку Add.
@@ -24,7 +74,7 @@ ___
 
 ## Запрос токенов в кране
 
-Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал #testnet-faucet  и запрашиваем в кране токены на полученны адрес. Дожидаетесь поступления токенов на счет и переходите к следующему пукнкту (баланс можно проверить в [обозревателе блокчейна](https://test.massa.net/#explorer) введя свой публичный адрес).
+Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученны адрес. Дожидаетесь поступления токенов на счет и переходите к следующему пукнкту (баланс можно проверить в [обозревателе блокчейна](https://test.massa.net/#explorer) введя свой публичный адрес).
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015694-1f320c6e-1be5-47af-88ab-203f8d97c228.png)
 
@@ -112,3 +162,4 @@ node_add_staking_private_keys ваш_приватный_ключ
 node_testnet_rewards_program_ownership_proof ваш_адрес_кошелька ваш_id_discord_от_бота
 ```
 Ее надо скормить в терминале Putty в наш кошелек(там где делали команду wallet_info), в ответ придёт длинный хеш, их копируем и отправляем боту в [дискорд Massa](https://discord.gg/W5X3frEE).
+
