@@ -91,7 +91,7 @@ nohup ./massa-node --release >cargo.out 2>cargo.err </dev/null &
 sleep 5m
 
 cd /massa/massa-client/
-ls
+chmod +x massa-client
 ./massa-client wallet_add_private_keys $my_wallet_privkey
 sleep 10
 ./massa-client wallet_info
