@@ -1,5 +1,7 @@
 # Massa Node on Akash Network
 
+![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
+
 * [English guide](https://github.com/Dimokus88/Massa/edit/main/README.md#massa-node-for-deployment-on-akash-network)
 * [Инструкция на русском](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
 
