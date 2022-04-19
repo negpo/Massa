@@ -48,7 +48,7 @@ retry_delay = 20000
 
 cd /massa/massa-node/
 chmod +x massa-node
-nohup ./massa-node --release &
+nohup ./massa-node --release >nohup.out 2>nohup.err </dev/null &
 
 sleep 2m
 cd /massa/massa-client/
