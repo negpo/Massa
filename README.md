@@ -4,8 +4,8 @@
 [Akash Network](https://akash.network/) || [Forum Akash Network](https://forum.akash.network/)
 ___
 
-* [English guide](https://github.com/Dimokus88/Massa/edit/main/README.md#massa-node-for-deployment-on-akash-network)
-* [Инструкция на русском](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
+* [English guide](https://github.com/Dimokus88/Massa/blob/main/README.md#massa-node-for-deployment-on-akash-network)
+* [Инструкция на русском](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
 
 ___
 Before you start - subscribe to our news:
@@ -24,7 +24,7 @@ ___
 
 ### Massa node for deployment on Akash Network
 
-* If you already have a wallet - go to paragraph ["Request tokens in a faucet"](https://github.com/Dimokus88/Massa/edit/main/README.md#request-tokens-in-a-faucet).
+* If you already have a wallet - go to paragraph ["Request tokens in a faucet"](https://github.com/Dimokus88/Massa/blob/main/README.md#request-tokens-in-a-faucet).
 
 # Using the dimokus88/massa:10.0.3 image with auto deployment:
 
@@ -62,7 +62,7 @@ ___
 
 ### Нода проекта Massa для развертки на Akash Network
 
-* Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/edit/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
+* Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
 
 # Образ dimokus88/massa:10.0.3:
 
