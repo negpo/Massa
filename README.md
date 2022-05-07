@@ -1,23 +1,28 @@
 # Massa Node on Akash Network
+# Нода проекта Massa для развертки на Akash Network 
+<div align="center">
 
 ![pba](https://user-images.githubusercontent.com/23629420/163564929-166f6a01-a6e2-4412-a4e9-40e54c821f05.png)
-[Akash Network](https://akash.network/) || [Forum Akash Network](https://forum.akash.network/)
+| [Akash Network](https://akash.network/) | [Forum Akash Network](https://forum.akash.network/) | 
+|:--:|:--:|
 ___
+Before you start - subscribe to our news channels: 
 
-* [English guide](https://github.com/Dimokus88/Massa/blob/main/README.md#massa-node-for-deployment-on-akash-network)
-* [Инструкция на русском](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
+Прежде чем начать - подпишитесь на наши новостные каналы:
 
-___
-Before you start - subscribe to our news:
+| [Discord Akash](https://discord.gg/3SNdg3BS) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
+|:--:|:--:|:--:|:--:|:--:|
 
-[Discord Akash](https://discord.gg/3SNdg3BS), [Telegram Akash EN](https://t.me/AkashNW), [Telegram Akash RU](https://t.me/akash_ru), [TwitterAkash](https://twitter.com/akashnet_), [TwitterAkashRU](https://twitter.com/akash_ru).
+</div>
+
+<div align="center">
+  
+[English version](https://github.com/Dimokus88/Massa/blob/main/README.md#massa-node-for-deployment-on-akash-network) | [Русская версия](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
+  
+</div>
 
 Thanks for help with assembly [Andy](https://twitter.com/andy31259) !
 ___
-___
-Прежде чем начать - подпишитесь на наши новостные каналы:
-
-[Discord Akash](https://discord.gg/3SNdg3BS), [Telegram Akash EN](https://t.me/AkashNW), [Telegram Akash RU](https://t.me/akash_ru), [TwitterAkash](https://twitter.com/akashnet_), [TwitterAkashRU](https://twitter.com/akash_ru).
 
 Отдельная благодарность за помощь в сборке [Andy](https://twitter.com/andy31259) !
 ___
@@ -60,7 +65,7 @@ Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet`
 
 ___
 
-### Нода проекта Massa для развертки на Akash Network
+# Нода проекта Massa для развертки на Akash Network
 
 * Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
 
