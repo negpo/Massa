@@ -7,11 +7,12 @@ echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
 echo 'export my_discord_id='${my_discord_id} >> $HOME/.bashrc
 echo 'export my_wallet_privkey='${my_wallet_privkey} >> $HOME/.bashrc
 echo 'export my_wallet_addr='${my_wallet_addr} >> $HOME/.bashrc
+echo 'export MASSA_LINK='${MASSA_LINK} >> $HOME/.bashrc
 echo 'export wait='${wait} >> $HOME/.bashrc
 source $HOME/.bashrc
 
-wget https://github.com/massalabs/massa/releases/download/TEST.9.2/massa_TEST.9.2_release_linux.tar.gz
-tar -xvf massa_TEST.9.2_release_linux.tar.gz
+wget -o massa.tar.gz ${MASSA_LINK}
+tar -xvf massa.tar.gz
 sed -i 's/\r//' rolls.sh && chmod +x rolls.sh
 echo '[bootstrap]
 max_ping = 10000
