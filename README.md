@@ -32,7 +32,7 @@ ___
 
 * If you already have a wallet - go to paragraph ["Request tokens in a faucet"](https://github.com/Dimokus88/Massa/blob/main/README.md#request-tokens-in-a-faucet).
 
-# Using the dimokus88/massa:10.0.3 image with auto deployment:
+# Using the dimokus88/massa:10.0.3:
 
 ## Create wallet
 * Go to https://massa.net/testnet/wallet and generate a wallet by clicking "Generate" (save the private key from the "Add"). Click "Add".
