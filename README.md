@@ -17,7 +17,7 @@ Before you start - subscribe to our news channels:
 
 <div align="center">
   
-[English version]https://github.com/Dimokus88/Massa/blob/main/README.md#massa-node-for-deployment-on-akash-network) | [Русская версия](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
+[English version](https://github.com/Dimokus88/Massa/blob/main/README.md#massa-node-for-deployment-on-akash-network) | [Русская версия](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%BD%D0%BE%D0%B4%D0%B0-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%B0-massa-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B8-%D0%BD%D0%B0-akash-network)
   
   
 </div>
