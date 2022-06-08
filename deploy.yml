@@ -10,7 +10,7 @@ services:
      - my_wallet_addr=your_wallet_address #Massa wallet
      - my_root_password=your_root_password #For ssh connection
      - wait=60 #Set roll check frequency in seconds. Установите частоту проверки роллов в секундах.
-     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.10.1/massa_TEST.10.1_release_linux.tar.gz"
+     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.11.0/massa_TEST.11.0_release_linux.tar.gz"
     expose:
       - port: 80
         as: 80
