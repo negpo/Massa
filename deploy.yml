@@ -3,12 +3,12 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/massa:10.0.3
+    image: dimokus88/massa:10.0.4
     env:
-     - my_discord_id=your_discord_id
-     - my_wallet_privkey=your_wallet_privat_key #Massa wallet privat key
-     - my_root_password=your_root_password #For ssh connection
-     - wait=60 #Set roll check frequency in seconds. Установите частоту проверки роллов в секундах.
+     - "my_discord_id=your_discord_id"
+     - "my_wallet_privkey=your_wallet_privat_key" #Massa wallet privat key
+     - "my_root_password=your_root_password" #For ssh connection
+     - "wait=600" #Set roll check frequency in seconds. Установите частоту проверки роллов в секундах.
      - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.11.0/massa_TEST.11.0_release_linux.tar.gz"
     expose:
       - port: 80
