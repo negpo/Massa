@@ -70,6 +70,11 @@ Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet`
 
 * And you can download logs in file, click "Download logs".
 
+* If you see such errors, then your node has not connected yet, give it some time.
+
+![image](https://user-images.githubusercontent.com/23629420/172899308-6adbec68-b819-4103-860b-892b2b8885ff.png)
+
+
 ### Thank you for choosing Akash Network!
 ___
 
@@ -113,7 +118,12 @@ ___
 Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученны адрес. Баланс можно проверить в [обозревателе блокчейна](https://massa.net/testnet) введя свой публичный адрес.
 
 * Так же, вы можете выгрузить лог в отдельный файл для удобства работы нажав "Download logs".
-* 
+
+* Если вы наблюдаете подобные ошибки - значит ваша нода пока не подключилась, дайте ей немного времени.
+
+ ![image](https://user-images.githubusercontent.com/23629420/172899186-5ba923c0-8cf3-435b-8fbb-5f5e64d38459.png)
+
+ 
 ### Спасибо что используете Akash Network!
 
 
