@@ -40,6 +40,13 @@ ___
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/167258193-4b7ed05b-f580-4e0d-adad-b25f407734f6.png)
 
 ## Deploy Massa node on Akash Network
+
+* Open ***Akashlytics***,if you don't have it installed, then [link for download](https://www.akashlytics.com/deploy).
+
+* We check the presence of a balance  ***(>5АКТ)*** and the presence of an installed certificate.
+
+![image](https://user-images.githubusercontent.com/23629420/165339432-6f053e43-4fa2-4429-8eb7-d2fc66f47c70.png)
+
 * Enter info to [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) from the your wallet and Discord ID (get in MassaBot), and don't forget to uncomment the lines (remove the # symbol at the beginning of the lines).
 
 ![image](https://user-images.githubusercontent.com/23629420/172821020-b551d49a-5b03-4813-bcd5-a3e5a634bbe8.png)
