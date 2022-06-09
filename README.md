@@ -56,6 +56,7 @@ ___
 
 Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet```  and request in faucet tokens to your public adrress. Wait for the receipt of tokens on the account and proceed to the next item (check balancein [blockchain explorer Massa](https://massa.net/testnet) by entering your public address).
 
+![image](https://user-images.githubusercontent.com/23629420/172821208-989e31bc-07b3-400a-bf97-0c15be0e38ec.png)
 
 * And you can download logs in file, click "Download logs".
 
@@ -82,6 +83,8 @@ ___
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
 
 * Переходим в вкладку Logs. Разверка ноды занимает около ***5 минут***. Через 5 минут в окно лога начнет выводится информация о работе в massa-client. Хеш транзакции, которую надо предоставить MassaBot в Discord для регистрации в программе вознаграждений, будет выведен ***последней строкой***. Так же будет отображен публичный адрес ***Public key*** , который нужно отправить в ветку ***Discord*** для получения тестовых токенов (***см. далее***). 
+
+![image](https://user-images.githubusercontent.com/23629420/172821287-6ab6d57b-e910-4800-b224-9430622b61c8.png)
 
 ## Запрос токенов в кране
 
