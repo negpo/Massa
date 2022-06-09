@@ -48,9 +48,14 @@ ___
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
 
-*Go to Logs. Deploing of node takes about of ***5 minutes***. Then,go to window logs, get information about the work massa-client. The hash of the transaction that needs to be submitted to MassaBot (Discord) to register for the rewards program will be displayed in ***last line***. The public address ***Public key*** will also be displayed, which must be sent to the ***Discord*** branch to receive test tokens (***see below***).
+*Go to Logs. Deploing of node takes about of ***5 minutes***. Then,go to window logs, get information about the work massa-client. The hash of the transaction that needs to be submitted to MassaBot (Discord) to register for the rewards program will be displayed in ***last line***.
+
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
+
+The public address ***Public key*** will also be displayed, which must be sent to the ***Discord*** branch to receive test tokens (***see below***).
+
+![image](https://user-images.githubusercontent.com/23629420/172821287-6ab6d57b-e910-4800-b224-9430622b61c8.png)
 
 ## Request tokens in a faucet
 
@@ -82,15 +87,17 @@ ___
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
 
-* Переходим в вкладку Logs. Разверка ноды занимает около ***5 минут***. Через 5 минут в окно лога начнет выводится информация о работе в massa-client. Хеш транзакции, которую надо предоставить MassaBot в Discord для регистрации в программе вознаграждений, будет выведен ***последней строкой***. Так же будет отображен публичный адрес ***Public key*** , который нужно отправить в ветку ***Discord*** для получения тестовых токенов (***см. далее***). 
+* Переходим в вкладку Logs. Разверка ноды занимает около ***5 минут***. Через 5 минут в окно лога начнет выводится информация о работе в massa-client. Хеш транзакции, которую надо предоставить MassaBot в Discord для регистрации в программе вознаграждений, будет выведен ***последней строкой***. 
+
+![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
+
+* Так же будет отображен публичный адрес ***Public key*** , который нужно отправить в ветку ***Discord*** для получения тестовых токенов (***см. далее***). 
 
 ![image](https://user-images.githubusercontent.com/23629420/172821287-6ab6d57b-e910-4800-b224-9430622b61c8.png)
 
 ## Запрос токенов в кране
 
 Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученны адрес. Баланс можно проверить в [обозревателе блокчейна](https://massa.net/testnet) введя свой публичный адрес.
-
-![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
 
 * Так же, вы можете выгрузить лог в отдельный файл для удобства работы нажав "Download logs".
 
