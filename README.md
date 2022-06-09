@@ -32,7 +32,7 @@ ___
 
 * If you already have a wallet - go to paragraph ["Request tokens in a faucet"](https://github.com/Dimokus88/Massa/blob/main/README.md#request-tokens-in-a-faucet).
 
-# Using the dimokus88/massa:10.0.3:
+# Using the dimokus88/massa:11.0.4:
 
 ## Create wallet
 * Go to https://massa.net/testnet/wallet and generate a wallet by clicking "Generate" (save the private key from the "Add"). Click "Add".
@@ -69,7 +69,7 @@ ___
 
 * Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
 
-# Образ dimokus88/massa:10.0.3:
+# Образ dimokus88/massa:11.0.4:
 
 ## Создание кошелька
 * Идем по адресу https://massa.net/testnet/wallet и генерируем кошелек нажимая Generate (сохраняем приватный ключ из поля Add). Нажимаем кнопку Add.
