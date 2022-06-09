@@ -84,6 +84,13 @@ ___
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/167258193-4b7ed05b-f580-4e0d-adad-b25f407734f6.png)
 
 ## Разворачиваем ноду с помощью маркетплейса Akash Network
+
+* Открываем ```Akashlytics```, если он у вас не установлен - то вот [ссылка на скачивание](https://www.akashlytics.com/deploy).
+
+* Проверяем наличие баланса (>5АКТ) и наличие установленного сертификата.
+
+![image](https://user-images.githubusercontent.com/23629420/165339432-6f053e43-4fa2-4429-8eb7-d2fc66f47c70.png)
+
 * Заполняем [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) со своими данными кошелька и Discord ID (получить у MassaBot), а также незабудьте расскомментить строки (удалить символ # в начале строк).
 
 ![image](https://user-images.githubusercontent.com/23629420/172821043-fd5d3011-5397-4b83-b25d-caa76b0ccd0b.png)
