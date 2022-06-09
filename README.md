@@ -61,8 +61,6 @@ The public address ***Public key*** will also be displayed, which must be sent t
 
 Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet```  and request in faucet tokens to your public adrress. Wait for the receipt of tokens on the account and proceed to the next item (check balancein [blockchain explorer Massa](https://massa.net/testnet) by entering your public address).
 
-![image](https://user-images.githubusercontent.com/23629420/172821208-989e31bc-07b3-400a-bf97-0c15be0e38ec.png)
-
 * And you can download logs in file, click "Download logs".
 
 ___
