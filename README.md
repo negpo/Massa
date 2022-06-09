@@ -70,6 +70,7 @@ Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet`
 
 * And you can download logs in file, click "Download logs".
 
+### Thank you for choosing Akash Network!
 ___
 
 # Нода проекта Massa для развертки на Akash Network
@@ -112,6 +113,7 @@ ___
 Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученны адрес. Баланс можно проверить в [обозревателе блокчейна](https://massa.net/testnet) введя свой публичный адрес.
 
 * Так же, вы можете выгрузить лог в отдельный файл для удобства работы нажав "Download logs".
-
+* 
+### Спасибо что используете Akash Network!
 
 
