@@ -39,15 +39,10 @@ ___
  
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/167258193-4b7ed05b-f580-4e0d-adad-b25f407734f6.png)
 
-## Request tokens in a faucet
-
-Go to  [Discord Massa](https://discord.gg/W5X3frEE), channel ```#testnet-faucet```  and request in faucet tokens to your public adrress. Wait for the receipt of tokens on the account and proceed to the next item (check balancein [blockchain explorer Massa](https://massa.net/testnet) by entering your public address).
-
-
 ## Deploy Massa node on Akash Network
 * Enter info to [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) from the your wallet and Discord ID (get in MassaBot), and don't forget to uncomment the lines (remove the # symbol at the beginning of the lines).
 
-![Alt-текст](https://user-images.githubusercontent.com/23629420/163009566-323f2526-c745-4648-9670-749e14d5387b.png)
+![image](https://user-images.githubusercontent.com/23629420/172821020-b551d49a-5b03-4813-bcd5-a3e5a634bbe8.png)
 
 * Create deployment and waiting of the bids, select provider and waiting start deployment your container.
 
@@ -80,7 +75,7 @@ ___
 ## Разворачиваем ноду с помощью маркетплейса Akash Network
 * Заполняем [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) со своими данными кошелька и Discord ID (получить у MassaBot), а также незабудьте расскомментить строки (удалить символ # в начале строк).
 
-![Alt-текст](https://user-images.githubusercontent.com/23629420/163009566-323f2526-c745-4648-9670-749e14d5387b.png)
+![image](https://user-images.githubusercontent.com/23629420/172821043-fd5d3011-5397-4b83-b25d-caa76b0ccd0b.png)
 
 * Создаем deployment и должидаемся предложений, выбираем провайдера и ждем начала развертывания контейнера.
 
