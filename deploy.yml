@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/massa:11.0.5
+    image: dimokus88/massa:11.0.8
     env:
      - "my_discord_id=your_discord_id"
      - "my_wallet_privkey=your_wallet_privat_key" #Massa wallet privat key
