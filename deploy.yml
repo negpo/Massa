@@ -3,12 +3,12 @@ version: "2.0"
 
 services:
   app:
-    image: dimokus88/massa:11
+    image: dimokus88/massa:11.1.3
     env:
      - "my_discord_id=your_discord_id"
      - "my_wallet_privkey=your_wallet_privat_key" #Massa wallet privat key
      - "my_root_password=your_root_password" #For ssh connection
-     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.11.0/massa_TEST.11.0_release_linux.tar.gz"
+     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.11.3/massa_TEST.11.3_release_linux.tar.gz"
     expose:
       - port: 80
         as: 80
