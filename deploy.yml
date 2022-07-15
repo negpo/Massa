@@ -8,7 +8,7 @@ services:
      - "my_discord_id=your_discord_id"
      - "my_wallet_privkey=your_wallet_privat_key" #Massa wallet privat key
      - "my_root_password=your_root_password" #For ssh connection
-     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.12.0/massa_TEST.12.0_release_linux.tar.gz"
+     - "MASSA_LINK=https://github.com/massalabs/massa/releases/download/TEST.12.1/massa_TEST.12.1_release_linux.tar.gz"
     expose:
       - port: 80
         as: 80
