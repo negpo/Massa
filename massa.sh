@@ -71,7 +71,7 @@ chmod +x /massa/massa-node/log/run
 ln -s /massa/massa-node /etc/service
 
 
-sleep 2m
+sleep 5m
 cd /massa/massa-client/
 chmod +x massa-client
 ./massa-client wallet_add_secret_keys $my_wallet_privkey -p $pass
