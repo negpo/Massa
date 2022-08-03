@@ -73,7 +73,6 @@ do
 			echo $nodepid
 			sleep 1
 			source $HOME/.bashrc
-			cd /
 		else
 			echo =================================
 			echo ===Нода работает.Node working.===
