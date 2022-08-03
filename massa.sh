@@ -27,13 +27,15 @@ sleep 5
 wget -O ./massa.tar.gz ${MASSA_LINK}
 tar -xvf massa.tar.gz
 
+node=/massa/massa-node/massa-node
+client=/massa/massa-client/massa-client
+
 cd /massa/massa-node/
 chmod +x massa-node
 cd /massa/massa-client/
 chmod +x massa-client
 
-cp /massa/massa-node/massa-node /usr/bin
-cp /massa/massa-client/massa-client /usr/bin
+
 
 IP=$(wget -qO- eth0.me)
 
@@ -53,7 +55,7 @@ mkdir /root/massa-node/log
 cat > /root/massa-node/run <<EOF 
 #!/bin/bash
 exec 2>&1
-exec massa-node -p $pass
+exec $node -p $pass
 EOF
 
 chmod +x /root/massa-node/run
@@ -72,33 +74,33 @@ ln -s /root/massa-node /etc/service
 sleep 2m
 cd /massa/massa-client/
 chmod +x massa-client
-massa-client wallet_add_private_keys $my_wallet_privkey -p $pass
+$client wallet_add_private_keys $my_wallet_privkey -p $pass
 sleep 10
-massa-client wallet_info -p $pass
+$client wallet_info -p $pass
 sleep 10
 for ((;;))
 do	
-		massa-client node_add_staking_private_keys $my_wallet_privkey -p $pass
+		$client node_add_staking_private_keys $my_wallet_privkey -p $pass
 		
-		synh=`massa-client get_status -p $pass | grep "Version" | awk '{ print $2 }'`  
-		my_wallet_addr=`massa-client wallet_info -p $pass | grep "Address" | awk '{ print $2 }'`
+		synh=`$client get_status -p $pass | grep "Version" | awk '{ print $2 }'`  
+		my_wallet_addr=`$client wallet_info -p $pass | grep "Address" | awk '{ print $2 }'`
 		
 		if [[ $discord == 1 ]]
 		then
-			discord=`massa-client node_testnet_rewards_program_ownership_proof $my_wallet_addr $my_discord_id -p $pass`
+			discord=`$client node_testnet_rewards_program_ownership_proof $my_wallet_addr $my_discord_id -p $pass`
 		fi
 		echo =================================Send to MassaBot==========================================
 		echo $discord
 		echo ============================================================================================
 		echo === Your Public Key $my_wallet_addr Ваш публичный адрес ===
 		echo ============================================================================================
-		balance=$(massa-client wallet_info -p $pass | grep "Final balance" | awk '{ print $3 }')
+		balance=$($client wallet_info -p $pass | grep "Final balance" | awk '{ print $3 }')
 		int_balance=${balance%%.*}
 		date		
 		
 		if [[ "$int_balance" -gt "99" ]] ; then
 			echo "More than 99. Баланс токенов более 99. "
-			resp=$(massa-client buy_rolls $my_wallet_addr $(($int_balance/100)) 0 -p $pass)
+			resp=$($client buy_rolls $my_wallet_addr $(($int_balance/100)) 0 -p $pass)
 			echo $resp
 		elif [[ "$int_balance" -lt "100" ]] ; then
 			echo "Less than 100. Баланс токенов менее 100."
