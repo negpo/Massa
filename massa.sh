@@ -21,6 +21,8 @@ echo 'export my_wallet_privkey='${my_wallet_privkey} >> $HOME/.bashrc
 echo 'export my_wallet_addr='${my_wallet_addr} >> $HOME/.bashrc
 echo 'export MASSA_LINK='${MASSA_LINK} >> $HOME/.bashrc
 echo 'export pass='${pass} >> $HOME/.bashrc
+echo 'export client='${client} >> $HOME/.bashrc
+echo 'export node='${node} >> $HOME/.bashrc
 source $HOME/.bashrc
 echo ==========================================================
 sleep 5
