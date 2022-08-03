@@ -54,7 +54,7 @@ for ((;;))
 do	
 		/massa/massa-client/massa-client node_add_staking_private_keys $my_wallet_privkey
 		
-		synh=`//massa/massa-client/massa-client get_status | grep "Version" | awk '{ print $2 }'`  
+		synh=`/massa/massa-client/massa-client get_status | grep "Version" | awk '{ print $2 }'`  
 		my_wallet_addr=`/massa/massa-client/massa-client wallet_info | grep "Address" | awk '{ print $2 }'`
 		
 		if [[ $discord == 1 ]]
