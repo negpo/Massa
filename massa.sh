@@ -103,7 +103,7 @@ sleep 10
 sleep 10
 for ((;;))
 do	
-		./massa-client $my_wallet_privkey -p $pass
+		./massa-client node_add_staking_secret_keys $my_wallet_privkey -p $pass
 		
 		synh=`./massa-client get_status -p $pass | grep "Version" | awk '{ print $2 }'`  
 		my_wallet_addr=`./massa-client wallet_info -p $pass | grep "Address" | awk '{ print $2 }'`
