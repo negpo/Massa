@@ -2,6 +2,7 @@
 TZ=Europe/Kiev
 ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 apt-get update
+apt-get upgrade -y
 apt install sudo wget curl tar nano -y
 apt-get install ssh -y
 
