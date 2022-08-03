@@ -15,6 +15,7 @@ sudo apt-get install -y nano runit
 runsvdir -P /etc/service &
 source $HOME/.bashrc
 discord=1
+error="Error: check if your node is running: error trying to connect: tcp connect error: Connection refused (os error 111)"
 echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
 echo 'export my_discord_id='${my_discord_id} >> $HOME/.bashrc
 echo 'export my_wallet_privkey='${my_wallet_privkey} >> $HOME/.bashrc
@@ -69,10 +70,18 @@ EOF
 
 chmod +x /massa/massa-node/log/run
 ln -s /massa/massa-node /etc/service
-
-
-sleep 5m
 cd /massa/massa-client/
+status=`./massa-client get_status -p $pass`
+
+while [[ $status == $error ]]
+do
+echo ======= Нода не подключена ======
+echo ===== Node is not connected =====
+echo $status
+sleep 2m
+status=`./massa-client get_status -p $pass`
+done
+
 chmod +x massa-client
 ./massa-client wallet_add_secret_keys $my_wallet_privkey -p $pass
 sleep 10
