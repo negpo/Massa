@@ -89,8 +89,8 @@ status=`./massa-client get_status -p $pass`
 
 while [[ $status == $error ]]
 do
-echo ======= Нода не подключена ======
-echo ===== Node is not connected =====
+echo ==== Нода не подключена, ожидайте.. =====
+echo ===== Node is not connected, wait.. =====
 echo $status
 sleep 2m
 status=`./massa-client get_status -p $pass`
