@@ -21,8 +21,31 @@ tar -xvf massa.tar.gz
 
 cd /massa/massa-node/
 chmod +x massa-node
-nohup ./massa-node --release > /dev/null 2>&1 & nodepid=`echo $!`
-echo $nodepid
+
+cd /
+mkdir /root/massa-node
+mkdir /root/massa-node/log
+
+
+cat > /root/massa-node/run <<EOF 
+#!/bin/bash
+exec 2>&1
+exec /massa/massa-node/massa-node --release
+EOF
+
+chmod +x /root/massa-node/run
+LOG=/root/log
+
+cat > /root/massa-node/log/run <<EOF 
+#!/bin/bash
+mkdir $LOG
+exec svlogd -tt $LOG
+EOF
+
+chmod +x /root/massa-node/log/run
+ln -s /root/massa-node /etc/service
+
+
 sleep 2m
 cd /massa/massa-client/
 chmod +x massa-client
