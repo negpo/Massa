@@ -12,7 +12,6 @@ sleep 5
 sudo apt-get install -y nano runit
 runsvdir -P /etc/service &
 source $HOME/.bashrc
-source $HOME/.bashrc
 discord=1
 echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
 echo 'export my_discord_id='${my_discord_id} >> $HOME/.bashrc
