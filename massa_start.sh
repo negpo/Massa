@@ -1,17 +1,6 @@
 #!/bin/bash
 source $HOME/.bashrc
-TZ=Europe/Kiev
-ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-apt-get update
-apt-get upgrade
-apt-get install sudo nano wget tar zip unzip jq ssh git -y 
-echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
-(echo ${my_root_password}; echo ${my_root_password}) | passwd root
-service ssh restart
-
-sleep 5
-sudo apt-get install -y nano runit
-runsvdir -P /etc/service &
+curl -s https://raw.githubusercontent.com/Dimokus88/universe/main/script/start.sh | bash
 source $HOME/.bashrc
 discord=1
 echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
