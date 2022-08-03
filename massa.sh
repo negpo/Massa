@@ -50,27 +50,25 @@ cat /massa/massa-node/config/config.toml
 sleep 5
 
 cd /
-mkdir /root/massa-node
-mkdir /root/massa-node/log
+mkdir /massa/massa-node/log
 
-
-cat > /root/massa-node/run <<EOF 
+cat > /massa/massa-node/run <<EOF 
 #!/bin/bash
 exec 2>&1
-exec $node -p $pass
+exec ./massa-node -p $pass
 EOF
 
-chmod +x /root/massa-node/run
+chmod +x /massa/massa-node/run 
 LOG=/root/log
 
-cat > /root/massa-node/log/run <<EOF 
+cat > /massa/massa-node/log/run <<EOF 
 #!/bin/bash
 mkdir $LOG
 exec svlogd -tt $LOG
 EOF
 
 chmod +x /root/massa-node/log/run
-ln -s /root/massa-node /etc/service
+ln -s /massa/massa-node /etc/service
 
 
 sleep 2m
