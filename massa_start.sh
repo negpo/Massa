@@ -1,6 +1,8 @@
 #!/bin/bash
 source $HOME/.bashrc
 curl -s https://raw.githubusercontent.com/Dimokus88/universe/main/script/start.sh | bash
+echo ==========================================================
+sleep 5
 source $HOME/.bashrc
 discord=1
 echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
@@ -9,7 +11,8 @@ echo 'export my_wallet_privkey='${my_wallet_privkey} >> $HOME/.bashrc
 echo 'export my_wallet_addr='${my_wallet_addr} >> $HOME/.bashrc
 echo 'export MASSA_LINK='${MASSA_LINK} >> $HOME/.bashrc
 source $HOME/.bashrc
-
+echo ==========================================================
+sleep 5
 wget -O ./massa.tar.gz ${MASSA_LINK}
 tar -xvf massa.tar.gz
 
