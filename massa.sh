@@ -12,3 +12,15 @@ sleep 5
 sudo apt-get install -y nano runit
 runsvdir -P /etc/service &
 source $HOME/.bashrc
+source $HOME/.bashrc
+discord=1
+echo 'export my_root_password='${my_root_password} >> $HOME/.bashrc
+echo 'export my_discord_id='${my_discord_id} >> $HOME/.bashrc
+echo 'export my_wallet_privkey='${my_wallet_privkey} >> $HOME/.bashrc
+echo 'export my_wallet_addr='${my_wallet_addr} >> $HOME/.bashrc
+echo 'export MASSA_LINK='${MASSA_LINK} >> $HOME/.bashrc
+source $HOME/.bashrc
+echo ==========================================================
+sleep 5
+wget -O ./massa.tar.gz ${MASSA_LINK}
+tar -xvf massa.tar.gz
