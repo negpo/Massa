@@ -9,8 +9,8 @@ echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 (echo ${my_root_password}; echo ${my_root_password}) | passwd root
 service ssh restart
 sleep 5
-wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1l-1ubuntu1.6_amd64.deb
-sudo dpkg -i libssl1.1_1.1.1l-1ubuntu1.6_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.0g-2ubuntu4_amd64.deb
+sudo dpkg -i ./libssl1.1_1.1.0g-2ubuntu4_amd64.deb
 sudo apt-get install -y nano runit
 runsvdir -P /etc/service &
 source $HOME/.bashrc
