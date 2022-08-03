@@ -67,7 +67,7 @@ mkdir $LOG
 exec svlogd -tt $LOG
 EOF
 
-chmod +x /root/massa-node/log/run
+chmod +x /massa/massa-node/log/run
 ln -s /massa/massa-node /etc/service
 
 
