@@ -37,22 +37,6 @@ cd /massa/massa-node/
 chmod +x massa-node
 cd /massa/massa-client/
 chmod +x massa-client
-
-
-
-IP=$(wget -qO- eth0.me)
-
-cat > /massa/massa-node/config/config.toml <<EOF 
-[network]
-routable_ip = "$IP"
-[bootstrap]
-max_ping = 10000
-bootstrap_list = [
-]
-connect_timeout = 15000
-retry_delay = 20000
-EOF
-
 cat /massa/massa-node/config/config.toml
 sleep 5
 
