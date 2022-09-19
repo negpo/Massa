@@ -8,7 +8,7 @@
 ___
 Before you start - subscribe to our news channels: 
 
-Прежде чем начать - подпишитесь на наши новостные каналы:
+Прежде, чем начать - подпишитесь на наши новостные каналы:
 
 | [Discord Akash](https://discord.gg/3SNdg3BS) | [Telegram Akash EN](https://t.me/AkashNW) | [Telegram Akash RU](https://t.me/akash_ru) | [TwitterAkash](https://twitter.com/akashnet_) | [TwitterAkashRU](https://twitter.com/akash_ru) |
 |:--:|:--:|:--:|:--:|:--:|
@@ -53,7 +53,7 @@ ___
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
 
-*Go to Logs. Deploing of node takes about of ***5 minutes***. Then,go to window logs, get information about the work massa-client. The hash of the transaction that needs to be submitted to MassaBot (Discord) to register for the rewards program will be displayed in ***last line***.
+*Go to Logs. Deploing of node takes about of ***5 minutes***. Then, go to window logs, get information about the work massa-client. The hash of the transaction that needs to be submitted to MassaBot (Discord) to register for the rewards program will be displayed in ***last line***.
 
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
@@ -78,22 +78,22 @@ ___
 
 # Нода проекта Massa для развертки на Akash Network
 
-* Если у вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
+* Если у Вас уже есть кошелек - переходите к пункту ["Запрос токенов в кране"](https://github.com/Dimokus88/Massa/blob/main/README.md#%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81-%D1%82%D0%BE%D0%BA%D0%B5%D0%BD%D0%BE%D0%B2-%D0%B2-%D0%BA%D1%80%D0%B0%D0%BD%D0%B5).
 
 ## Создание кошелька
-* Идем по адресу https://massa.net/testnet/wallet и генерируем кошелек нажимая Generate (сохраняем приватный ключ из поля Add). Нажимаем кнопку Add.
+* Идем по адресу https://massa.net/testnet/wallet и генерируем кошелек, нажимая Generate (сохраняем приватный ключ из поля Add). Нажимаем кнопку Add.
  
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/167258193-4b7ed05b-f580-4e0d-adad-b25f407734f6.png)
 
 ## Разворачиваем ноду с помощью маркетплейса Akash Network
 
-* Открываем ```Akashlytics```, если он у вас не установлен - то вот [ссылка на скачивание](https://www.akashlytics.com/deploy).
+* Открываем ```Akashlytics```, если он у Вас не установлен - то вот [ссылка на скачивание](https://www.akashlytics.com/deploy).
 
 * Проверяем наличие баланса (>5АКТ) и наличие установленного сертификата.
 
 ![image](https://user-images.githubusercontent.com/23629420/165339432-6f053e43-4fa2-4429-8eb7-d2fc66f47c70.png)
 
-* Заполняем [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) со своими данными кошелька и Discord ID (получить у MassaBot), а также незабудьте расскомментить строки (удалить символ # в начале строк).
+* Заполняем [deploy.yml](https://github.com/Dimokus88/Massa/blob/main/deploy.yml) со своими данными кошелька и Discord ID (получить у MassaBot), а также не забудьте расскомментить строки (удалить символ # в начале строк).
 
 ![image](https://user-images.githubusercontent.com/23629420/172821043-fd5d3011-5397-4b83-b25d-caa76b0ccd0b.png)
 
@@ -101,7 +101,7 @@ ___
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163015058-d2d07eff-2eb5-4cad-9e17-526ca4219f1c.png)
 
-* Переходим в вкладку Logs. Разверка ноды занимает около ***5 минут***. Через 5 минут в окно лога начнет выводится информация о работе в massa-client. Хеш транзакции, которую надо предоставить MassaBot в Discord для регистрации в программе вознаграждений, будет выведен ***последней строкой***. 
+* Переходим во вкладку Logs. Разверка ноды занимает около ***5 минут***. Через 5 минут в окно лога начнет выводится информация о работе в massa-client. Хеш транзакции, которую надо предоставить MassaBot в Discord для регистрации в программе вознаграждений, будет выведен ***последней строкой***. 
 
 ![Alt-текст](https://user-images.githubusercontent.com/23629420/163021720-7b7a7779-eb68-440a-93a0-6effa37f29d8.png)
 
@@ -111,15 +111,15 @@ ___
 
 ## Запрос токенов в кране
 
-Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученны адрес. Баланс можно проверить в [обозревателе блокчейна](https://massa.net/testnet) введя свой публичный адрес.
+Идем в  [дискорд Massa](https://discord.gg/W5X3frEE), канал ```#testnet-faucet```  и запрашиваем в кране токены на полученный адрес. Баланс можно проверить в [обозревателе блокчейна](https://massa.net/testnet), введя свой публичный адрес.
 
-* Так же, вы можете выгрузить лог в отдельный файл для удобства работы нажав "Download logs".
+* Также, Вы можете выгрузить лог в отдельный файл для удобства работы, нажав "Download logs".
 
-* Если вы наблюдаете подобные ошибки - значит ваша нода пока не подключилась, дайте ей немного времени.
+* Если Вы наблюдаете подобные ошибки - значит ваша нода пока не подключилась, дайте ей немного времени.
 
  ![image](https://user-images.githubusercontent.com/23629420/172899186-5ba923c0-8cf3-435b-8fbb-5f5e64d38459.png)
 
  
-### Спасибо что используете Akash Network!
+### Спасибо, что используете Akash Network!
 
 
